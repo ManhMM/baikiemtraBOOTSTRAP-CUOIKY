@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Check-Out</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<header class="header" style="height: 300px;">
+		<div class="container-main">
+			<div class="d-flex justify-content-between justify-content-lg-center gap-5 align-items-center py-4">
+				<a href="index.html" class="header-logo z-100 fw-bold text-dark">
+					<img src="./img/logo.png" alt="">
+				</a>
+				<div class="header-menu sp">
+					<ion-icon name="menu-outline" class="menu-toggle"></ion-icon>
+				</div>
+				<ul class=" menu-sp d-flex gap-3 align-items-center m-0">
+					<li class="header-item"><a href="shop.html" class="mr-4 header-links ">PRODUCT</a></li>
+					<li class="header-item"><a href="shopping-card.html" class="mr-4 header-links ">SHOPPING</a></li>
+					<li class="header-item"><a href="blog.html" class="mr-4 header-links ">BLOG</a></li>
+					<li class="header-item"><a href="checkout.html" class="mr-4 header-links ">CHECKOUT</a></li>
+					<li class="header-item"><a href="tracking.html" class="mr-4 header-links ">TRACK</a></li>
+					<li class="header-item"><a href="blog.html" class="mr-4 header-links ">BLOG</a></li>
+					<li class="header-item"><a href="contact.html" class="mr-4 header-links ">CONTACT</a></li>
+				</ul>
+			</div>
+			<div class="w-100 text-center  text-danger">
+				<div class="title fw-bold">Check_Out Page</div>
+			</div>
+
+		</div>
+		</div>
+	</header>
+  <div class="fied">
+    <a href="#top">
+      <ion-icon class="icon-up" name="caret-up-circle-outline"></ion-icon>
+    </a>
+  </div>
+  <section class="mt-100">
+    <div class="container-main">
+      <div class="bg-gray py-3 ps-4 w-10 w-75">
+        <div> Returning Customer?</div>
+      </div>
+      <div class="my-4 ms-3">
+        If you have shopped with us before, please enter your details in the boxes below. If you are a new customer,
+        please proceed to the Billing & Shipping section.
+      </div>
+      <div class="d-flex aling-items-center gap-4 w-10 w-75 col-sp">
+        <input type="text" placeholder="Enter Your Email" class="w-10 w-50 ps-3 py-2 bg-gray border">
+        <input type="text" placeholder="Password" class="w-10 w-50 ps-3 py-2 bg-gray border">
+      </div>
+      <button type="submit" class="bg-orange border w-50 w-10 py-3 mt-5 text-white">LOGIN</button>
+        <input type="checkbox" id="html" name="fav_language" value="HTML" class="mt-2">
+        <label for="html">Remember me ?</label><br>
+      <div class="bg-gray py-3 ps-4 mt-5 w-10 w-75">
+        <div>Have a coupon? </div>
+      </div>
+      <input type="text" placeholder="Enter coupon code" class="w-25 w-10 mt-3 border ps-3 py-2"><br>
+      <button class="border bg-white px-4 py-2 mt-4">APPLY COUPON</button>
+      <div class="d-flex align-items-start gap-5 w-100 mt-100 col-sp">
+        <div class="w-10 w-50">
+          <div class="fw-bold fs-4 pb-3 border-bottom w-100 ">Billing Details</div>
+          <div class="d-flex aling-items-center gap-4 mt-5 col-sp">
+            <input type="text" placeholder="First Name" class="w-10 w-75  border ps-3 py-2">
+            <input type="text" placeholder="Last  Name" class="w-10 w-75  border ps-3 py-2">
+          </div>
+          <input type="text" placeholder="Company  Name" class="w-100 my-3 border ps-3 py-2">
+          <div class="d-flex aling-items-center gap-4 col-sp">
+            <input type="text" placeholder="Phone Number" class="w-10 w-75  border ps-3 py-2">
+            <input type="text" placeholder="Email Address" class="w-10 w-75  border ps-3 py-2">
+          </div>
+          <input type="text" placeholder="Country" class="w-100 mt-3 mb-2 border ps-3 py-2">
+          <input type="text" placeholder="Address line 01" class="w-100 my-2 border ps-3 py-2">
+          <input type="text" placeholder="Address line 02" class="w-100 my-2 border ps-3 py-2">
+          <input type="text" placeholder="Town/City" class="w-100 my-2 border ps-3 py-2">
+          <input type="text" placeholder="District" class="w-100 my-2 border ps-3 py-2">
+            <input type="checkbox" id="html" name="fav_language" value="HTML">
+            <label for="html">Create an account?</label><br>
+          <div class="fw-bold fs-4 pb-3 border-bottom w-100 mt-100">Shipping Details</div>
+            <input type="checkbox" id="html" name="fav_language" value="HTML" class="mt-4">
+            <label for="html">Ship to a different address?</label><br>
+          <input type="text" placeholder="Order Notes" style="height: 150px;" class="w-100 my-3 border ps-3 py-2">
+
+        </div>
+        <div class="w-10 w-25 bg-gray p-4">
+          <div class="fw-bold fs-4 pb-3 border-bottom">Your Order</div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>Product</div>
+            <div>Total</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>Fresh Blackberry </div>
+            <div>x 02</div>
+            <div>$720.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>Fresh Blackberry </div>
+            <div>x 02</div>
+            <div>$720.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>Fresh Tomatoes </div>
+            <div>x 02</div>
+            <div>$720.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>Fresh Brocoli </div>
+            <div>x 02</div>
+            <div>$720.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div class="fw-bold fs-5">SUBTOTAL</div>
+            <div>$2160.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>SHIPPING</div>
+            <div>Flat Rate: $50.00</div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-4">
+            <div>TOTAL</div>
+            <div>$2210.00</div>
+          </div>
+            <input type="checkbox" id="html" name="fav_language" value="HTML" class="mt-4">
+            <label for="html">CHECK PAYMENTS</label><br>
+          <div class="bg-white text-dark p-2 mt-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis nostrum ipsum nihil ad officia consequatur?
+          </div>
+            <input type="checkbox" id="html" name="fav_language" value="HTML"  class="mt-4">
+            <label for="html">PAYPAL</label><br>
+          <div class="bg-white text-dark p-2 mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis nostrum ipsum nihil ad officia consequatur?
+          </div>
+            <input type="checkbox" id="html" name="fav_language" value="HTML"  class="mt-4">
+            <label for="html">I've read terms & conditions</label><br>
+          <button type="submit" class="w-100 text-white bg-orange py-3 mt-3 border">PROCEED TO PAYPAL</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-100 bg-dark">
+    <div class="container-main">
+      <div class="d-flex justify-content-between align-items-start flex-wrap pt-100 pb-100 col-sp gap-5">
+        <div class="w-10 w-25">
+          <div class="fw-bold text-white fs-4">About Us</div>
+          <div class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore dolore magna aliqua.</div>
+        </div>
+        <div class="w-10 ">
+          <div class="fw-bold text-white fs-4">Newsletter</div>
+          <div class="text-white my-2">Stay update with our latest</div>
+          <div class="d-flex align-items-center">
+            <input type="text" placeholder="Enter Email" class="border-0 ps-2 py-1">
+            <ion-icon name="arrow-forward-outline" class="bg-orange text-white px-2 py-2"></ion-icon>
+          </div>
+        </div>
+				<div class="w-10">
+					<div class="text-white fs-4 fw-bold">Instragram Feed</div>
+					<div class="d-flex align-items-center gap-3 mt-2">
+						<img src="./img/r7.jpg" alt="">
+						<img src="./img/r8.jpg" alt="">
+						<img src="./img/r9.jpg" alt="">
+					</div>
+					<div class="d-flex align-items-center gap-3 mt-3">
+						<img src="./img/r10.jpg" alt="">
+						<img src="./img/r11.jpg" alt="">
+						<img src="./img/r12.jpg" alt="">
+					</div>
+				</div>
+        <div>
+          <div class="fw-bold fs-4 text-white">FOLLOW US</div>
+          <div class="text-white my-2">Let us be social</div>
+          <div class="d-flex align-items-center gap-3">
+            <ion-icon class="text-white" name="logo-facebook"></ion-icon>
+            <ion-icon class="text-white" name="logo-github"></ion-icon>
+            <ion-icon class="text-white" name="logo-youtube"></ion-icon>
+            <ion-icon class="text-white" name="logo-skype"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script text="text/javascript">
+    const menu = document.querySelector(".menu-sp")
+    const toggle = document.querySelector(".menu-toggle");
+    toggle.addEventListener("click", function () {
+      menu.classList.toggle("is-show")
+    });
+    document.addEventListener("click", handleClickOutMenu);
+    function handleClickOutMenu(event) {
+      if (!menu.contains(event.target) && !event.target.matches(".menu-toggle")) {
+        menu.classList.remove("is-show")
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>
